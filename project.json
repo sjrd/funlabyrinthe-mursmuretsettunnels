@@ -1,0 +1,12 @@
+{
+  "dependencies": [
+    "funlaby:sjrd/floorlevelledgrounds/local-current",
+    "funlaby:sjrd/viewrestriction/local-current"
+  ],
+  "modules": [
+    "com.funlabyrinthe.mazes.Mazes",
+    "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds",
+    "user.sjrd.viewrestriction.ViewRestriction",
+    "myfunlaby.MursMuretsEtTunnels"
+  ]
+}

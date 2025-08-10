@@ -1,0 +1,628 @@
+{
+  "players": [ "player", ],
+  "additionalComponents": {
+    "com.funlabyrinthe.mazes.Mazes:mapCreator": [ "map1", ],
+    "com.funlabyrinthe.mazes.Mazes:transporterCreator": [],
+    "com.funlabyrinthe.mazes.Mazes:boatCreator": [],
+    "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:floorLevelledGroundCreator": [ "floorLevelledGround1", "floorLevelledGround2", "floorLevelledGround3", "floorLevelledGround4", ],
+    "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator": [ "tunnel1", "tunnel2", "tunnel3", "tunnel4", "tunnel5", "tunnel6", "tunnel7", "tunnel8", "tunnel9", "tunnel10", "tunnel11", "tunnel12", "tunnel13", "tunnel14", "tunnel15", "tunnel16", "tunnel17", "tunnel18", "tunnel19", "tunnel20", "tunnel21", "tunnel22", "tunnel23", "tunnel24", "tunnel25", "tunnel26", "tunnel27", "tunnel28", "tunnel29", "tunnel30", "tunnel31", "tunnel32", "tunnel33", "tunnel34", "tunnel35", "tunnel36", ],
+    "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:bridgeCreator": [ "bridge1", ],
+  },
+  "components": {
+    "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:bridgeCreator:bridge1": {
+      "editVisualTag": "",
+    },
+    "com.funlabyrinthe.core.Core:player:com.funlabyrinthe.mazes.Player": {
+      "position": [
+        [
+          "com.funlabyrinthe.mazes.Mazes:mapCreator:map1",
+          [ 17, 17, 1, ],
+        ],
+      ],
+    },
+    "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:floorLevelledGroundCreator:floorLevelledGround1": {
+      "editVisualTag": "",
+      "painter": [
+        {
+          "ImageDescription": "Fields/Underground",
+        },
+      ],
+    },
+    "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:floorLevelledGroundCreator:floorLevelledGround2": {
+      "editVisualTag": "",
+      "level": 1,
+    },
+    "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:floorLevelledGroundCreator:floorLevelledGround3": {
+      "editVisualTag": "",
+      "level": 2,
+      "painter": [
+        {
+          "ImageDescription": "Fields/LowWall",
+        },
+      ],
+    },
+    "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:floorLevelledGroundCreator:floorLevelledGround4": {
+      "editVisualTag": "",
+      "level": 3,
+      "painter": [
+        {
+          "ImageDescription": "Fields/Wall",
+        },
+      ],
+    },
+    "com.funlabyrinthe.mazes.Mazes:grass": {
+      "editVisualTag": "!",
+    },
+    "myfunlaby.MursMuretsEtTunnels:highWall": {
+      "level": 4,
+    },
+    "com.funlabyrinthe.mazes.Mazes:mapCreator:map1": {
+      "map": {
+        "palette": [
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:fullField", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel29", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel29", "com.funlabyrinthe.mazes.Mazes:upStairs", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel29", "com.funlabyrinthe.mazes.Mazes:directTurnstile", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel29", "com.funlabyrinthe.mazes.Mazes:crossroads", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:silverBlock", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel29", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:silverBlock", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:floorLevelledGroundCreator:floorLevelledGround2", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "myfunlaby.MursMuretsEtTunnels:porch", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:floorLevelledGroundCreator:floorLevelledGround2", "myfunlaby.MursMuretsEtTunnels:stepLadder", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:floorLevelledGroundCreator:floorLevelledGround2", "com.funlabyrinthe.mazes.Mazes:westArrow", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:floorLevelledGroundCreator:floorLevelledGround2", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:floorLevelledGroundCreator:floorLevelledGround2", "com.funlabyrinthe.mazes.Mazes:eastArrow", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:floorLevelledGroundCreator:floorLevelledGround2", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:silverBlock", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel20", "com.funlabyrinthe.mazes.Mazes:upStairs", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel2", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel3", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel2", "com.funlabyrinthe.mazes.Mazes:westArrow", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel2", "com.funlabyrinthe.mazes.Mazes:upStairs", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel26", "com.funlabyrinthe.mazes.Mazes:downStairs", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:floorLevelledGroundCreator:floorLevelledGround2", "com.funlabyrinthe.mazes.Mazes:downStairs", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel21", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:floorLevelledGroundCreator:floorLevelledGround2", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:goldenBlock", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel21", "com.funlabyrinthe.mazes.Mazes:northArrow", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel21", "com.funlabyrinthe.mazes.Mazes:southArrow", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel22", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel22", "com.funlabyrinthe.mazes.Mazes:upStairs", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel1", "com.funlabyrinthe.mazes.Mazes:crossroads", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel2", "com.funlabyrinthe.mazes.Mazes:eastArrow", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel36", "com.funlabyrinthe.mazes.Mazes:northArrow", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel28", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:goldenKey", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:floorLevelledGroundCreator:floorLevelledGround2", "com.funlabyrinthe.mazes.Mazes:southArrow", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel36", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel18", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:floorLevelledGroundCreator:floorLevelledGround2", "com.funlabyrinthe.mazes.Mazes:crossroads", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel20", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:plank", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:floorLevelledGroundCreator:floorLevelledGround2", "com.funlabyrinthe.mazes.Mazes:northArrow", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel28", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel23", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "myfunlaby.MursMuretsEtTunnels:gateOnHighWallHintSign", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel20", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel4", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel19", "com.funlabyrinthe.mazes.Mazes:upStairs", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:floorLevelledGroundCreator:floorLevelledGround2", "com.funlabyrinthe.mazes.Mazes:indirectTurnstile", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:floorLevelledGroundCreator:floorLevelledGround2", "com.funlabyrinthe.mazes.Mazes:eastArrow", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:silverBlock", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:floorLevelledGroundCreator:floorLevelledGround2", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:buoy", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel21", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:silverBlock", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel19", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel1", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel26", "com.funlabyrinthe.mazes.Mazes:upStairs", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel19", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:goldenKey", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel18", "com.funlabyrinthe.mazes.Mazes:westArrow", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel23", "com.funlabyrinthe.mazes.Mazes:upStairs", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel24", "com.funlabyrinthe.mazes.Mazes:upStairs", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:floorLevelledGroundCreator:floorLevelledGround2", "myfunlaby.MursMuretsEtTunnels:stepLadder", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:silverBlock", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel18", "com.funlabyrinthe.mazes.Mazes:noEffect", "myfunlaby.MursMuretsEtTunnels:torch", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "com.funlabyrinthe.mazes.Mazes:water", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel24", "com.funlabyrinthe.mazes.Mazes:downStairs", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:floorLevelledGroundCreator:floorLevelledGround2", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:goldenKey", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:floorLevelledGroundCreator:floorLevelledGround2", "com.funlabyrinthe.mazes.Mazes:crossroads", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:silverBlock", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:floorLevelledGroundCreator:floorLevelledGround2", "com.funlabyrinthe.mazes.Mazes:directTurnstile", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:floorLevelledGroundCreator:floorLevelledGround2", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:silverKey", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:emptyField", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:floorLevelledGroundCreator:floorLevelledGround3", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:silverKey", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:floorLevelledGroundCreator:floorLevelledGround3", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:floorLevelledGroundCreator:floorLevelledGround3", "myfunlaby.MursMuretsEtTunnels:stepLadder", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel17", "com.funlabyrinthe.mazes.Mazes:downStairs", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel8", "com.funlabyrinthe.mazes.Mazes:westArrow", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel14", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel8", "com.funlabyrinthe.mazes.Mazes:eastArrow", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel8", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel10", "com.funlabyrinthe.mazes.Mazes:downStairs", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel7", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:floorLevelledGroundCreator:floorLevelledGround3", "com.funlabyrinthe.mazes.Mazes:westArrow", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel11", "com.funlabyrinthe.mazes.Mazes:downStairs", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel13", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:floorLevelledGroundCreator:floorLevelledGround3", "com.funlabyrinthe.mazes.Mazes:southArrow", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:floorLevelledGroundCreator:floorLevelledGround3", "com.funlabyrinthe.mazes.Mazes:eastArrow", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel7", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:silverBlock", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel16", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:floorLevelledGroundCreator:floorLevelledGround3", "com.funlabyrinthe.mazes.Mazes:crossroads", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:floorLevelledGroundCreator:floorLevelledGround3", "com.funlabyrinthe.mazes.Mazes:indirectTurnstile", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel25", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel27", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:bridgeCreator:bridge1", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel15", "com.funlabyrinthe.mazes.Mazes:downStairs", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel9", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel10", "com.funlabyrinthe.mazes.Mazes:upStairs", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel25", "com.funlabyrinthe.mazes.Mazes:downStairs", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel17", "com.funlabyrinthe.mazes.Mazes:upStairs", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel13", "com.funlabyrinthe.mazes.Mazes:northArrow", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:floorLevelledGroundCreator:floorLevelledGround3", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "myfunlaby.MursMuretsEtTunnels:torchHintSign", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel7", "com.funlabyrinthe.mazes.Mazes:northArrow", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel17", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel10", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:silverKey", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:floorLevelledGroundCreator:floorLevelledGround3", "com.funlabyrinthe.mazes.Mazes:northArrow", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:floorLevelledGroundCreator:floorLevelledGround3", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "myfunlaby.MursMuretsEtTunnels:tunnelHintSign", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel12", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel7", "com.funlabyrinthe.mazes.Mazes:southArrow", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel10", "com.funlabyrinthe.mazes.Mazes:noEffect", "myfunlaby.MursMuretsEtTunnels:torch", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel5", "com.funlabyrinthe.mazes.Mazes:crossroads", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:floorLevelledGroundCreator:floorLevelledGround4", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:floorLevelledGroundCreator:floorLevelledGround4", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:silverKey", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel32", "com.funlabyrinthe.mazes.Mazes:upStairs", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel30", "com.funlabyrinthe.mazes.Mazes:downStairs", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel31", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:floorLevelledGroundCreator:floorLevelledGround4", "com.funlabyrinthe.mazes.Mazes:downStairs", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:floorLevelledGroundCreator:floorLevelledGround4", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:goldenBlock", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel33", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel35", "com.funlabyrinthe.mazes.Mazes:westArrow", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel34", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel35", "com.funlabyrinthe.mazes.Mazes:eastArrow", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:floorLevelledGroundCreator:floorLevelledGround4", "myfunlaby.MursMuretsEtTunnels:stepLadder", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel33", "com.funlabyrinthe.mazes.Mazes:southArrow", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "myfunlaby.MursMuretsEtTunnels:highWall", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "myfunlaby.MursMuretsEtTunnels:highWall", "com.funlabyrinthe.mazes.Mazes:treasure", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "myfunlaby.MursMuretsEtTunnels:highWall", "com.funlabyrinthe.mazes.Mazes:downStairs", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+          [ "myfunlaby.MursMuretsEtTunnels:highWall", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:silverKey", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
+        ],
+        "map": [
+          [
+            [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
+            [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, ],
+            [ 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 2, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, ],
+            [ 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 2, 1, 0, 1, 2, 0, ],
+            [ 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, ],
+            [ 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1, 1, 1, 0, 3, 0, 0, ],
+            [ 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 4, 1, 0, ],
+            [ 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, ],
+            [ 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, ],
+            [ 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 2, 1, 1, 0, 0, 0, 1, 2, 1, 0, 0, ],
+            [ 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, ],
+            [ 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, ],
+            [ 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, ],
+            [ 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, ],
+            [ 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, ],
+            [ 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, ],
+            [ 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, ],
+            [ 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, ],
+            [ 0, 1, 2, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, ],
+            [ 0, 0, 0, 0, 0, 0, 2, 1, 1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, ],
+            [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
+          ],
+          [
+            [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
+            [ 0, 0, 0, 0, 0, 7, 8, 9, 9, 10, 9, 9, 9, 11, 9, 9, 9, 9, 9, 9, 0, ],
+            [ 0, 12, 13, 14, 15, 13, 16, 13, 17, 0, 18, 0, 19, 0, 0, 0, 0, 0, 0, 20, 0, ],
+            [ 0, 21, 0, 22, 0, 10, 9, 9, 9, 7, 0, 0, 23, 14, 13, 17, 0, 7, 0, 18, 0, ],
+            [ 0, 24, 13, 25, 26, 9, 0, 0, 27, 13, 28, 0, 0, 22, 0, 0, 0, 9, 0, 29, 0, ],
+            [ 0, 0, 0, 9, 8, 9, 0, 0, 30, 26, 31, 0, 0, 19, 0, 9, 9, 32, 9, 9, 0, ],
+            [ 0, 0, 0, 9, 0, 9, 9, 9, 19, 33, 13, 13, 14, 31, 0, 9, 0, 9, 0, 9, 0, ],
+            [ 0, 0, 0, 9, 0, 9, 0, 0, 19, 20, 0, 9, 7, 0, 0, 9, 0, 34, 0, 34, 0, ],
+            [ 0, 0, 29, 9, 10, 32, 9, 9, 31, 0, 7, 32, 13, 13, 35, 9, 8, 9, 9, 9, 0, ],
+            [ 0, 0, 7, 0, 0, 9, 0, 34, 0, 9, 17, 9, 9, 36, 19, 9, 37, 17, 0, 9, 0, ],
+            [ 6, 9, 9, 0, 0, 9, 8, 9, 9, 32, 9, 32, 13, 38, 31, 9, 39, 0, 0, 9, 6, ],
+            [ 0, 37, 40, 41, 32, 34, 0, 9, 9, 9, 8, 9, 9, 42, 0, 9, 0, 0, 0, 9, 0, ],
+            [ 0, 43, 44, 0, 29, 9, 8, 45, 46, 29, 13, 35, 0, 0, 0, 9, 8, 9, 10, 9, 0, ],
+            [ 0, 47, 0, 0, 9, 0, 37, 48, 0, 7, 49, 9, 0, 0, 0, 9, 0, 9, 0, 9, 0, ],
+            [ 0, 0, 0, 0, 9, 0, 39, 0, 0, 0, 19, 0, 0, 0, 0, 9, 0, 34, 0, 9, 0, ],
+            [ 0, 50, 8, 9, 9, 13, 13, 13, 14, 26, 31, 0, 9, 9, 9, 32, 8, 9, 0, 0, 0, ],
+            [ 0, 0, 7, 0, 29, 0, 0, 0, 22, 0, 0, 0, 29, 51, 0, 9, 0, 9, 0, 0, 0, ],
+            [ 0, 0, 23, 13, 38, 13, 15, 13, 52, 0, 0, 0, 9, 32, 9, 9, 9, 9, 0, 53, 0, ],
+            [ 0, 0, 54, 35, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 0, 0, 0, 0, 0, 53, 0, ],
+            [ 0, 55, 9, 56, 57, 9, 18, 0, 0, 0, 9, 9, 9, 9, 9, 53, 53, 53, 53, 58, 0, ],
+            [ 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
+          ],
+          [
+            [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 59, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
+            [ 0, 60, 61, 62, 61, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 0, ],
+            [ 0, 63, 64, 65, 66, 67, 68, 61, 61, 0, 59, 0, 0, 0, 0, 0, 0, 0, 0, 59, 0, ],
+            [ 0, 0, 0, 69, 0, 59, 59, 59, 59, 59, 0, 0, 61, 70, 61, 61, 61, 59, 0, 59, 0, ],
+            [ 0, 71, 66, 72, 0, 59, 61, 61, 61, 61, 61, 0, 60, 0, 73, 0, 0, 59, 0, 59, 0, ],
+            [ 0, 69, 62, 59, 59, 59, 61, 0, 0, 0, 0, 0, 74, 61, 61, 59, 59, 59, 59, 59, 0, ],
+            [ 0, 75, 61, 59, 61, 59, 59, 59, 61, 0, 61, 0, 0, 0, 0, 59, 61, 59, 61, 59, 0, ],
+            [ 0, 76, 61, 59, 0, 59, 0, 62, 77, 59, 78, 59, 59, 74, 61, 59, 0, 59, 0, 59, 0, ],
+            [ 0, 69, 59, 59, 59, 59, 59, 59, 62, 0, 59, 59, 0, 0, 69, 59, 59, 59, 59, 59, 0, ],
+            [ 0, 79, 59, 61, 80, 59, 61, 59, 77, 59, 61, 59, 59, 61, 69, 59, 0, 0, 0, 59, 0, ],
+            [ 59, 59, 59, 0, 69, 59, 59, 59, 81, 59, 59, 59, 0, 0, 69, 59, 82, 0, 0, 59, 59, ],
+            [ 0, 69, 59, 59, 59, 59, 61, 59, 81, 59, 59, 59, 59, 59, 69, 59, 83, 84, 0, 59, 0, ],
+            [ 0, 69, 0, 61, 59, 59, 59, 0, 85, 59, 0, 86, 64, 65, 87, 59, 59, 59, 59, 59, 0, ],
+            [ 0, 69, 0, 61, 59, 69, 60, 0, 61, 59, 63, 59, 61, 72, 88, 59, 60, 81, 61, 59, 0, ],
+            [ 0, 69, 0, 61, 59, 69, 63, 67, 74, 77, 61, 61, 61, 61, 61, 59, 61, 59, 69, 59, 0, ],
+            [ 0, 85, 59, 81, 59, 89, 90, 65, 72, 83, 91, 92, 59, 59, 59, 59, 59, 59, 69, 93, 0, ],
+            [ 0, 61, 59, 61, 59, 76, 67, 94, 64, 61, 70, 61, 59, 59, 61, 81, 61, 59, 61, 61, 0, ],
+            [ 0, 61, 61, 61, 0, 95, 90, 65, 96, 73, 0, 61, 59, 59, 59, 59, 81, 59, 61, 59, 0, ],
+            [ 0, 0, 0, 0, 0, 83, 67, 97, 67, 61, 0, 61, 61, 81, 61, 70, 61, 74, 61, 59, 0, ],
+            [ 0, 59, 59, 59, 59, 59, 59, 83, 67, 61, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 0, ],
+            [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 59, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
+          ],
+          [
+            [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 59, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
+            [ 0, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 0, ],
+            [ 0, 98, 98, 98, 98, 98, 98, 59, 59, 98, 59, 98, 98, 98, 98, 98, 98, 98, 98, 59, 0, ],
+            [ 0, 0, 0, 0, 0, 59, 59, 59, 59, 59, 0, 98, 59, 59, 59, 59, 59, 59, 98, 59, 0, ],
+            [ 0, 98, 98, 98, 98, 59, 59, 59, 59, 59, 59, 98, 59, 98, 59, 98, 98, 59, 99, 59, 0, ],
+            [ 0, 98, 59, 59, 59, 59, 59, 98, 98, 98, 98, 98, 59, 59, 59, 59, 59, 59, 59, 59, 0, ],
+            [ 0, 98, 59, 59, 59, 59, 59, 59, 59, 98, 59, 98, 0, 0, 0, 59, 59, 59, 59, 59, 0, ],
+            [ 0, 98, 59, 59, 98, 59, 98, 59, 59, 59, 59, 59, 59, 59, 59, 59, 98, 59, 98, 59, 0, ],
+            [ 0, 98, 59, 59, 59, 59, 59, 59, 59, 98, 59, 59, 98, 98, 98, 59, 59, 59, 59, 59, 0, ],
+            [ 0, 98, 59, 59, 98, 59, 59, 59, 59, 59, 59, 59, 59, 59, 98, 59, 0, 0, 0, 59, 0, ],
+            [ 59, 59, 59, 0, 98, 59, 59, 59, 59, 59, 59, 59, 98, 98, 98, 59, 0, 0, 100, 59, 59, ],
+            [ 0, 98, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 98, 59, 0, 101, 102, 59, 0, ],
+            [ 0, 98, 98, 59, 59, 59, 59, 0, 0, 59, 98, 103, 98, 98, 104, 59, 59, 59, 59, 59, 0, ],
+            [ 0, 98, 98, 81, 81, 98, 59, 98, 59, 59, 98, 59, 59, 98, 59, 59, 59, 59, 59, 59, 0, ],
+            [ 0, 98, 98, 59, 59, 0, 0, 105, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 98, 59, 0, ],
+            [ 0, 98, 59, 59, 59, 98, 106, 107, 108, 98, 98, 59, 59, 59, 59, 59, 59, 59, 98, 59, 0, ],
+            [ 0, 59, 59, 59, 59, 109, 98, 110, 98, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 0, ],
+            [ 0, 59, 59, 59, 0, 0, 0, 105, 98, 59, 0, 59, 59, 59, 59, 59, 59, 59, 59, 59, 0, ],
+            [ 0, 98, 98, 98, 98, 98, 98, 98, 98, 59, 98, 59, 59, 59, 59, 59, 59, 59, 59, 59, 0, ],
+            [ 0, 59, 59, 59, 59, 59, 59, 98, 98, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 0, ],
+            [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 59, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
+          ],
+          [
+            [ 111, 111, 111, 111, 111, 111, 111, 111, 111, 111, 59, 111, 111, 111, 111, 111, 111, 111, 111, 111, 111, ],
+            [ 111, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 111, ],
+            [ 111, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 111, ],
+            [ 111, 111, 111, 111, 111, 59, 59, 59, 59, 59, 111, 59, 59, 59, 59, 59, 59, 59, 59, 59, 111, ],
+            [ 111, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 111, ],
+            [ 111, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 111, ],
+            [ 111, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 111, 111, 111, 59, 59, 59, 59, 59, 111, ],
+            [ 111, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 111, ],
+            [ 111, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 111, ],
+            [ 111, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 111, 111, 111, 59, 111, ],
+            [ 59, 59, 59, 111, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 111, 112, 113, 59, 59, ],
+            [ 111, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 111, 111, 111, 59, 111, ],
+            [ 111, 59, 59, 59, 59, 59, 59, 111, 114, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 111, ],
+            [ 111, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 111, ],
+            [ 111, 59, 59, 59, 59, 111, 111, 111, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 111, ],
+            [ 111, 59, 59, 59, 59, 59, 111, 111, 111, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 111, ],
+            [ 111, 59, 59, 59, 59, 59, 59, 111, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 111, ],
+            [ 111, 59, 59, 59, 111, 111, 111, 111, 59, 59, 111, 59, 59, 59, 59, 59, 59, 59, 59, 59, 111, ],
+            [ 111, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 111, ],
+            [ 111, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 111, ],
+            [ 111, 111, 111, 111, 111, 111, 111, 111, 111, 111, 59, 111, 111, 111, 111, 111, 111, 111, 111, 111, 111, ],
+          ],
+        ],
+        "outside": [ 0, 9, 59, 59, 59, ],
+      },
+    },
+    "com.funlabyrinthe.core.Core:player": {
+      "plugins": [ "myfunlaby.MursMuretsEtTunnels:allTimePlugin", "myfunlaby.MursMuretsEtTunnels:tunnelViewRestrictionPlugin", ],
+      "attributes": {
+        "user.sjrd.viewrestriction.ViewRestriction:viewRestrictionRadius": 25,
+      },
+    },
+    "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel1": {
+      "editVisualTag": "",
+      "painter": [
+        {
+          "ImageDescription": "Fields/Grass",
+        },
+      ],
+    },
+    "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel10": {
+      "editVisualTag": "",
+      "openings": [ "West", ],
+      "painter": [
+        {
+          "ImageDescription": "Fields/LowWall",
+        },
+      ],
+    },
+    "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel11": {
+      "editVisualTag": "",
+      "openings": [ "East", "South", ],
+      "painter": [
+        {
+          "ImageDescription": "Fields/LowWall",
+        },
+      ],
+    },
+    "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel12": {
+      "editVisualTag": "",
+      "openings": [ "North", "East", "West", ],
+      "painter": [
+        {
+          "ImageDescription": "Fields/LowWall",
+        },
+      ],
+    },
+    "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel13": {
+      "editVisualTag": "",
+      "openings": [ "North", "West", ],
+      "painter": [
+        {
+          "ImageDescription": "Fields/LowWall",
+        },
+      ],
+    },
+    "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel14": {
+      "editVisualTag": "",
+      "openings": [ "East", "South", "West", ],
+      "painter": [
+        {
+          "ImageDescription": "Fields/LowWall",
+        },
+      ],
+    },
+    "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel15": {
+      "editVisualTag": "",
+      "openings": [ "South", ],
+      "painter": [
+        {
+          "ImageDescription": "Fields/LowWall",
+        },
+      ],
+    },
+    "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel16": {
+      "editVisualTag": "",
+      "openings": [ "North", "East", "South", ],
+      "painter": [
+        {
+          "ImageDescription": "Fields/LowWall",
+        },
+      ],
+    },
+    "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel17": {
+      "editVisualTag": "",
+      "openings": [ "East", ],
+      "painter": [
+        {
+          "ImageDescription": "Fields/LowWall",
+        },
+      ],
+    },
+    "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel18": {
+      "editVisualTag": "",
+      "openings": [ "North", "West", ],
+      "painter": [
+        {
+          "ImageDescription": "Fields/Grass",
+        },
+      ],
+    },
+    "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel19": {
+      "editVisualTag": "",
+      "openings": [ "North", ],
+      "painter": [
+        {
+          "ImageDescription": "Fields/Grass",
+        },
+      ],
+    },
+    "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel2": {
+      "editVisualTag": "",
+      "openings": [ "East", "West", ],
+      "painter": [
+        {
+          "ImageDescription": "Fields/Grass",
+        },
+      ],
+    },
+    "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel20": {
+      "editVisualTag": "",
+      "openings": [ "East", "South", ],
+      "painter": [
+        {
+          "ImageDescription": "Fields/Grass",
+        },
+      ],
+    },
+    "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel21": {
+      "editVisualTag": "",
+      "openings": [ "North", "South", ],
+      "painter": [
+        {
+          "ImageDescription": "Fields/Grass",
+        },
+      ],
+    },
+    "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel22": {
+      "editVisualTag": "",
+      "openings": [ "North", "East", ],
+      "painter": [
+        {
+          "ImageDescription": "Fields/Grass",
+        },
+      ],
+    },
+    "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel23": {
+      "editVisualTag": "",
+      "openings": [ "South", ],
+      "painter": [
+        {
+          "ImageDescription": "Fields/Grass",
+        },
+      ],
+    },
+    "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel24": {
+      "editVisualTag": "",
+      "openings": [ "East", ],
+      "painter": [
+        {
+          "ImageDescription": "Fields/Grass",
+        },
+      ],
+    },
+    "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel25": {
+      "editVisualTag": "",
+      "openings": [ "North", ],
+      "painter": [
+        {
+          "ImageDescription": "Fields/LowWall",
+        },
+      ],
+    },
+    "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel26": {
+      "editVisualTag": "",
+      "openings": [ "West", ],
+      "painter": [
+        {
+          "ImageDescription": "Fields/Grass",
+        },
+      ],
+    },
+    "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel27": {
+      "editVisualTag": "",
+      "openings": [ "South", "West", ],
+      "painter": [
+        {
+          "ImageDescription": "Fields/LowWall",
+        },
+      ],
+    },
+    "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel28": {
+      "editVisualTag": "",
+      "openings": [ "South", "West", ],
+      "painter": [
+        {
+          "ImageDescription": "Fields/Grass",
+        },
+      ],
+    },
+    "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel29": {
+      "editVisualTag": "",
+      "painter": [
+        {
+          "ImageDescription": "Fields/Underground",
+        },
+      ],
+    },
+    "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel3": {
+      "editVisualTag": "",
+      "openings": [ "East", "South", "West", ],
+      "painter": [
+        {
+          "ImageDescription": "Fields/Grass",
+        },
+      ],
+    },
+    "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel30": {
+      "editVisualTag": "",
+      "openings": [ "East", ],
+      "painter": [
+        {
+          "ImageDescription": "Fields/Wall",
+        },
+      ],
+    },
+    "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel31": {
+      "editVisualTag": "",
+      "openings": [ "North", "West", ],
+      "painter": [
+        {
+          "ImageDescription": "Fields/Wall",
+        },
+      ],
+    },
+    "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel32": {
+      "editVisualTag": "",
+      "openings": [ "South", ],
+      "painter": [
+        {
+          "ImageDescription": "Fields/Wall",
+        },
+      ],
+    },
+    "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel33": {
+      "editVisualTag": "",
+      "openings": [ "North", "South", ],
+      "painter": [
+        {
+          "ImageDescription": "Fields/Wall",
+        },
+      ],
+    },
+    "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel34": {
+      "editVisualTag": "",
+      "painter": [
+        {
+          "ImageDescription": "Fields/Wall",
+        },
+      ],
+    },
+    "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel35": {
+      "editVisualTag": "",
+      "openings": [ "East", "West", ],
+      "painter": [
+        {
+          "ImageDescription": "Fields/Wall",
+        },
+      ],
+    },
+    "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel36": {
+      "editVisualTag": "",
+      "openings": [ "North", "East", "South", ],
+      "painter": [
+        {
+          "ImageDescription": "Fields/Grass",
+        },
+      ],
+    },
+    "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel4": {
+      "editVisualTag": "",
+      "openings": [ "North", "East", "West", ],
+      "painter": [
+        {
+          "ImageDescription": "Fields/Grass",
+        },
+      ],
+    },
+    "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel5": {
+      "editVisualTag": "",
+      "painter": [
+        {
+          "ImageDescription": "Fields/LowWall",
+        },
+      ],
+    },
+    "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel6": {
+      "editVisualTag": "",
+      "openings": [ "North", "South", "West", ],
+      "painter": [
+        {
+          "ImageDescription": "Fields/LowWall",
+        },
+      ],
+    },
+    "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel7": {
+      "editVisualTag": "",
+      "openings": [ "North", "South", ],
+      "painter": [
+        {
+          "ImageDescription": "Fields/LowWall",
+        },
+      ],
+    },
+    "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel8": {
+      "editVisualTag": "",
+      "openings": [ "East", "West", ],
+      "painter": [
+        {
+          "ImageDescription": "Fields/LowWall",
+        },
+      ],
+    },
+    "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel9": {
+      "editVisualTag": "",
+      "openings": [ "North", "East", ],
+      "painter": [
+        {
+          "ImageDescription": "Fields/LowWall",
+        },
+      ],
+    },
+    "com.funlabyrinthe.mazes.Mazes:wall": {
+      "editVisualTag": "!",
+    },
+  },
+}
