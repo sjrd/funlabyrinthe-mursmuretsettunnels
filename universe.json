@@ -58,6 +58,7 @@
     },
     "com.funlabyrinthe.mazes.Mazes:mapCreator:map1": {
       "map": {
+        "dimensions": [ 21, 21, 5, ],
         "palette": [
           [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:fullField", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
           [ "user.sjrd.floorlevelledgrounds.FloorLevelledGrounds:tunnelCreator:tunnel29", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
