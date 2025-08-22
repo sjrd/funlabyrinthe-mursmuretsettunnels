@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "funlaby:sjrd/floorlevelledgrounds/local-current",
+    "funlaby:sjrd/floorleveledgrounds/local-current",
     "funlaby:sjrd/viewrestriction/local-current"
   ],
   "modules": [
