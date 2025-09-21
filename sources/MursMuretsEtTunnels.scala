@@ -78,7 +78,7 @@ class StepLadderPlugin(using ComponentInit) extends PlayerPlugin:
   }
 end StepLadderPlugin
 
-class StepLadder(using ComponentInit) extends CounterEffect:
+class StepLadder(using ComponentInit) extends Effect:
   painter += "Ladders/StepLadder"
 
   override def entered(context: MoveContext): Unit = {
