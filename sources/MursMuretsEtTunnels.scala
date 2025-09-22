@@ -9,26 +9,6 @@ import user.sjrd.floorlevelledgrounds.*
 import user.sjrd.viewrestriction.*
 
 object MursMuretsEtTunnels extends Module:
-  override protected def createComponents()(using Universe): Unit =
-    val allTimePlugin = new AllTimePlugin
-    val stepLadderPlugin = new StepLadderPlugin
-    val stepLadder = new StepLadder
-
-    val tunnelViewRestrictionPlugin = new TunnelViewRestrictionPlugin
-
-    val highWall = new HighWall
-
-    val torch = new Torch
-
-    val tunnelHintSign = new TunnelHintSign
-    val torchHintSign = new TorchHintSign
-    val gateOnHighWallHintSign = new GateOnHighWallHintSign
-
-    val porch = new Porch
-
-    val darkWall = new Wall
-  end createComponents
-
   override def initialize()(using Universe): Unit =
     darkWall.painter = darkWall.painter.empty + "Plain/Black"
   end initialize
@@ -40,31 +20,25 @@ object MursMuretsEtTunnels extends Module:
         if !ref().field.isInstanceOf[Tunnel] then
           ref() += darkWall
   end startGame
-  
-  def allTimePlugin(using Universe): AllTimePlugin =
-    myComponentByID("allTimePlugin")
-  def stepLadderPlugin(using Universe): StepLadderPlugin =
-    myComponentByID("stepLadderPlugin")
-  def stepLadder(using Universe): StepLadder =
-    myComponentByID("stepLadder")
-
-  def tunnelViewRestrictionPlugin(using Universe): TunnelViewRestrictionPlugin =
-    myComponentByID("tunnelViewRestrictionPlugin")
-
-  def highWall(using Universe): HighWall = myComponentByID("highWall")
-  
-  def torch(using Universe): Torch = myComponentByID("torch")
-  
-  def tunnelHintSign(using Universe): TunnelHintSign = myComponentByID("tunnelHintSign")
-  def torchHintSign(using Universe): TorchHintSign = myComponentByID("torchHintSign")
-  def gateOnHighWallHintSign(using Universe): GateOnHighWallHintSign = myComponentByID("gateOnHighWallHintSign")
-  
-  def porch(using Universe): Porch = myComponentByID("porch")
-  
-  def darkWall(using Universe): Wall = myComponentByID("darkWall")
 end MursMuretsEtTunnels
 
-export MursMuretsEtTunnels.*
+@definition def allTimePlugin(using Universe) = new AllTimePlugin
+@definition def stepLadderPlugin(using Universe) = new StepLadderPlugin
+@definition def stepLadder(using Universe) = new StepLadder
+
+@definition def tunnelViewRestrictionPlugin(using Universe) = new TunnelViewRestrictionPlugin
+
+@definition def highWall(using Universe) = new HighWall
+
+@definition def torch(using Universe) = new Torch
+
+@definition def tunnelHintSign(using Universe) = new TunnelHintSign
+@definition def torchHintSign(using Universe) = new TorchHintSign
+@definition def gateOnHighWallHintSign(using Universe) = new GateOnHighWallHintSign
+
+@definition def porch(using Universe) = new Porch
+
+@definition def darkWall(using Universe) = new Wall
 
 class AllTimePlugin(using ComponentInit) extends PlayerPlugin:
   override def perform(player: CorePlayer) = {
