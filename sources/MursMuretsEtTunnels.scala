@@ -5,7 +5,7 @@ import com.funlabyrinthe.core.graphics.*
 import com.funlabyrinthe.mazes.*
 import com.funlabyrinthe.mazes.std.*
 
-import user.sjrd.floorlevelledgrounds.*
+import user.sjrd.floorleveledgrounds.*
 import user.sjrd.viewrestriction.*
 
 object MursMuretsEtTunnels extends Module:
@@ -71,7 +71,7 @@ class TunnelViewRestrictionPlugin(using ComponentInit) extends ViewRestrictionPl
   end drawView
 end TunnelViewRestrictionPlugin
 
-class HighWall(using ComponentInit) extends FloorLevelledGround:
+class HighWall(using ComponentInit) extends FloorLeveledGround:
   painter += "Fields/HighWallBase"
 
   @transient @noinspect
