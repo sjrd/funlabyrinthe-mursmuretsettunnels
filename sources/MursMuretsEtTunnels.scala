@@ -85,7 +85,7 @@ class HighWall(using ComponentInit) extends FloorLeveledGround:
 
     for dir <- Direction.values do
       if !where.exists(pos => (pos +> dir)().field == this) then
-        crenellations(dir.ordinal).drawTo(context)
+        context.drawTiled(crenellations(dir.ordinal))
   end doDraw
 end HighWall
 
