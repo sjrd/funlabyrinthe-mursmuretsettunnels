@@ -56,7 +56,7 @@
     "com.funlabyrinthe.core.AdditionalComponents:floorLeveledGround1": {
       "painter": [
         {
-          "ImageDescription": "Fields/Underground",
+          "ImageDescription": [ "Fields/Underground", 30, 30, ],
         },
       ],
     },
@@ -66,7 +66,7 @@
     "com.funlabyrinthe.core.AdditionalComponents:floorLeveledGround3": {
       "painter": [
         {
-          "ImageDescription": "Fields/LowWall",
+          "ImageDescription": [ "Fields/LowWall", 30, 30, ],
         },
       ],
       "level": 2,
@@ -74,7 +74,7 @@
     "com.funlabyrinthe.core.AdditionalComponents:floorLeveledGround4": {
       "painter": [
         {
-          "ImageDescription": "Fields/Wall",
+          "ImageDescription": [ "Fields/Wall", 30, 30, ],
         },
       ],
       "level": 3,
@@ -334,14 +334,14 @@
     "com.funlabyrinthe.core.AdditionalComponents:tunnel1": {
       "painter": [
         {
-          "ImageDescription": "Fields/Grass",
+          "ImageDescription": [ "Fields/Grass", 30, 30, ],
         },
       ],
     },
     "com.funlabyrinthe.core.AdditionalComponents:tunnel10": {
       "painter": [
         {
-          "ImageDescription": "Fields/LowWall",
+          "ImageDescription": [ "Fields/LowWall", 30, 30, ],
         },
       ],
       "openings": [ "West", ],
@@ -349,7 +349,7 @@
     "com.funlabyrinthe.core.AdditionalComponents:tunnel11": {
       "painter": [
         {
-          "ImageDescription": "Fields/LowWall",
+          "ImageDescription": [ "Fields/LowWall", 30, 30, ],
         },
       ],
       "openings": [ "East", "South", ],
@@ -357,7 +357,7 @@
     "com.funlabyrinthe.core.AdditionalComponents:tunnel12": {
       "painter": [
         {
-          "ImageDescription": "Fields/LowWall",
+          "ImageDescription": [ "Fields/LowWall", 30, 30, ],
         },
       ],
       "openings": [ "North", "East", "West", ],
@@ -365,7 +365,7 @@
     "com.funlabyrinthe.core.AdditionalComponents:tunnel13": {
       "painter": [
         {
-          "ImageDescription": "Fields/LowWall",
+          "ImageDescription": [ "Fields/LowWall", 30, 30, ],
         },
       ],
       "openings": [ "North", "West", ],
@@ -373,7 +373,7 @@
     "com.funlabyrinthe.core.AdditionalComponents:tunnel14": {
       "painter": [
         {
-          "ImageDescription": "Fields/LowWall",
+          "ImageDescription": [ "Fields/LowWall", 30, 30, ],
         },
       ],
       "openings": [ "East", "South", "West", ],
@@ -381,7 +381,7 @@
     "com.funlabyrinthe.core.AdditionalComponents:tunnel15": {
       "painter": [
         {
-          "ImageDescription": "Fields/LowWall",
+          "ImageDescription": [ "Fields/LowWall", 30, 30, ],
         },
       ],
       "openings": [ "South", ],
@@ -389,7 +389,7 @@
     "com.funlabyrinthe.core.AdditionalComponents:tunnel16": {
       "painter": [
         {
-          "ImageDescription": "Fields/LowWall",
+          "ImageDescription": [ "Fields/LowWall", 30, 30, ],
         },
       ],
       "openings": [ "North", "East", "South", ],
@@ -397,7 +397,7 @@
     "com.funlabyrinthe.core.AdditionalComponents:tunnel17": {
       "painter": [
         {
-          "ImageDescription": "Fields/LowWall",
+          "ImageDescription": [ "Fields/LowWall", 30, 30, ],
         },
       ],
       "openings": [ "East", ],
@@ -405,7 +405,7 @@
     "com.funlabyrinthe.core.AdditionalComponents:tunnel18": {
       "painter": [
         {
-          "ImageDescription": "Fields/Grass",
+          "ImageDescription": [ "Fields/Grass", 30, 30, ],
         },
       ],
       "openings": [ "North", "West", ],
@@ -413,7 +413,7 @@
     "com.funlabyrinthe.core.AdditionalComponents:tunnel19": {
       "painter": [
         {
-          "ImageDescription": "Fields/Grass",
+          "ImageDescription": [ "Fields/Grass", 30, 30, ],
         },
       ],
       "openings": [ "North", ],
@@ -421,7 +421,7 @@
     "com.funlabyrinthe.core.AdditionalComponents:tunnel2": {
       "painter": [
         {
-          "ImageDescription": "Fields/Grass",
+          "ImageDescription": [ "Fields/Grass", 30, 30, ],
         },
       ],
       "openings": [ "East", "West", ],
@@ -429,7 +429,7 @@
     "com.funlabyrinthe.core.AdditionalComponents:tunnel20": {
       "painter": [
         {
-          "ImageDescription": "Fields/Grass",
+          "ImageDescription": [ "Fields/Grass", 30, 30, ],
         },
       ],
       "openings": [ "East", "South", ],
@@ -437,7 +437,7 @@
     "com.funlabyrinthe.core.AdditionalComponents:tunnel21": {
       "painter": [
         {
-          "ImageDescription": "Fields/Grass",
+          "ImageDescription": [ "Fields/Grass", 30, 30, ],
         },
       ],
       "openings": [ "North", "South", ],
@@ -445,7 +445,7 @@
     "com.funlabyrinthe.core.AdditionalComponents:tunnel22": {
       "painter": [
         {
-          "ImageDescription": "Fields/Grass",
+          "ImageDescription": [ "Fields/Grass", 30, 30, ],
         },
       ],
       "openings": [ "North", "East", ],
@@ -453,7 +453,7 @@
     "com.funlabyrinthe.core.AdditionalComponents:tunnel23": {
       "painter": [
         {
-          "ImageDescription": "Fields/Grass",
+          "ImageDescription": [ "Fields/Grass", 30, 30, ],
         },
       ],
       "openings": [ "South", ],
@@ -461,7 +461,7 @@
     "com.funlabyrinthe.core.AdditionalComponents:tunnel24": {
       "painter": [
         {
-          "ImageDescription": "Fields/Grass",
+          "ImageDescription": [ "Fields/Grass", 30, 30, ],
         },
       ],
       "openings": [ "East", ],
@@ -469,7 +469,7 @@
     "com.funlabyrinthe.core.AdditionalComponents:tunnel25": {
       "painter": [
         {
-          "ImageDescription": "Fields/LowWall",
+          "ImageDescription": [ "Fields/LowWall", 30, 30, ],
         },
       ],
       "openings": [ "North", ],
@@ -477,7 +477,7 @@
     "com.funlabyrinthe.core.AdditionalComponents:tunnel26": {
       "painter": [
         {
-          "ImageDescription": "Fields/Grass",
+          "ImageDescription": [ "Fields/Grass", 30, 30, ],
         },
       ],
       "openings": [ "West", ],
@@ -485,7 +485,7 @@
     "com.funlabyrinthe.core.AdditionalComponents:tunnel27": {
       "painter": [
         {
-          "ImageDescription": "Fields/LowWall",
+          "ImageDescription": [ "Fields/LowWall", 30, 30, ],
         },
       ],
       "openings": [ "South", "West", ],
@@ -493,7 +493,7 @@
     "com.funlabyrinthe.core.AdditionalComponents:tunnel28": {
       "painter": [
         {
-          "ImageDescription": "Fields/Grass",
+          "ImageDescription": [ "Fields/Grass", 30, 30, ],
         },
       ],
       "openings": [ "South", "West", ],
@@ -501,14 +501,14 @@
     "com.funlabyrinthe.core.AdditionalComponents:tunnel29": {
       "painter": [
         {
-          "ImageDescription": "Fields/Underground",
+          "ImageDescription": [ "Fields/Underground", 30, 30, ],
         },
       ],
     },
     "com.funlabyrinthe.core.AdditionalComponents:tunnel3": {
       "painter": [
         {
-          "ImageDescription": "Fields/Grass",
+          "ImageDescription": [ "Fields/Grass", 30, 30, ],
         },
       ],
       "openings": [ "East", "South", "West", ],
@@ -516,7 +516,7 @@
     "com.funlabyrinthe.core.AdditionalComponents:tunnel30": {
       "painter": [
         {
-          "ImageDescription": "Fields/Wall",
+          "ImageDescription": [ "Fields/Wall", 30, 30, ],
         },
       ],
       "openings": [ "East", ],
@@ -524,7 +524,7 @@
     "com.funlabyrinthe.core.AdditionalComponents:tunnel31": {
       "painter": [
         {
-          "ImageDescription": "Fields/Wall",
+          "ImageDescription": [ "Fields/Wall", 30, 30, ],
         },
       ],
       "openings": [ "North", "West", ],
@@ -532,7 +532,7 @@
     "com.funlabyrinthe.core.AdditionalComponents:tunnel32": {
       "painter": [
         {
-          "ImageDescription": "Fields/Wall",
+          "ImageDescription": [ "Fields/Wall", 30, 30, ],
         },
       ],
       "openings": [ "South", ],
@@ -540,7 +540,7 @@
     "com.funlabyrinthe.core.AdditionalComponents:tunnel33": {
       "painter": [
         {
-          "ImageDescription": "Fields/Wall",
+          "ImageDescription": [ "Fields/Wall", 30, 30, ],
         },
       ],
       "openings": [ "North", "South", ],
@@ -548,14 +548,14 @@
     "com.funlabyrinthe.core.AdditionalComponents:tunnel34": {
       "painter": [
         {
-          "ImageDescription": "Fields/Wall",
+          "ImageDescription": [ "Fields/Wall", 30, 30, ],
         },
       ],
     },
     "com.funlabyrinthe.core.AdditionalComponents:tunnel35": {
       "painter": [
         {
-          "ImageDescription": "Fields/Wall",
+          "ImageDescription": [ "Fields/Wall", 30, 30, ],
         },
       ],
       "openings": [ "East", "West", ],
@@ -563,7 +563,7 @@
     "com.funlabyrinthe.core.AdditionalComponents:tunnel36": {
       "painter": [
         {
-          "ImageDescription": "Fields/Grass",
+          "ImageDescription": [ "Fields/Grass", 30, 30, ],
         },
       ],
       "openings": [ "North", "East", "South", ],
@@ -571,7 +571,7 @@
     "com.funlabyrinthe.core.AdditionalComponents:tunnel4": {
       "painter": [
         {
-          "ImageDescription": "Fields/Grass",
+          "ImageDescription": [ "Fields/Grass", 30, 30, ],
         },
       ],
       "openings": [ "North", "East", "West", ],
@@ -579,14 +579,14 @@
     "com.funlabyrinthe.core.AdditionalComponents:tunnel5": {
       "painter": [
         {
-          "ImageDescription": "Fields/LowWall",
+          "ImageDescription": [ "Fields/LowWall", 30, 30, ],
         },
       ],
     },
     "com.funlabyrinthe.core.AdditionalComponents:tunnel6": {
       "painter": [
         {
-          "ImageDescription": "Fields/LowWall",
+          "ImageDescription": [ "Fields/LowWall", 30, 30, ],
         },
       ],
       "openings": [ "North", "South", "West", ],
@@ -594,7 +594,7 @@
     "com.funlabyrinthe.core.AdditionalComponents:tunnel7": {
       "painter": [
         {
-          "ImageDescription": "Fields/LowWall",
+          "ImageDescription": [ "Fields/LowWall", 30, 30, ],
         },
       ],
       "openings": [ "North", "South", ],
@@ -602,7 +602,7 @@
     "com.funlabyrinthe.core.AdditionalComponents:tunnel8": {
       "painter": [
         {
-          "ImageDescription": "Fields/LowWall",
+          "ImageDescription": [ "Fields/LowWall", 30, 30, ],
         },
       ],
       "openings": [ "East", "West", ],
@@ -610,7 +610,7 @@
     "com.funlabyrinthe.core.AdditionalComponents:tunnel9": {
       "painter": [
         {
-          "ImageDescription": "Fields/LowWall",
+          "ImageDescription": [ "Fields/LowWall", 30, 30, ],
         },
       ],
       "openings": [ "North", "East", ],

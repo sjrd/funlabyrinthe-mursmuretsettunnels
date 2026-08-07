@@ -1,7 +1,7 @@
 package myfunlaby
 
 import com.funlabyrinthe.core.*
-import com.funlabyrinthe.core.graphics.*
+import com.funlabyrinthe.core.scene.*
 import com.funlabyrinthe.mazes.*
 import com.funlabyrinthe.mazes.std.*
 
@@ -65,10 +65,12 @@ class StepLadder(using ComponentInit) extends Effect:
 end StepLadder
 
 class TunnelViewRestrictionPlugin(using ComponentInit) extends ViewRestrictionPlugin:
-  override def drawView(corePlayer: CorePlayer, context: DrawContext): Unit =
+  override def presentView(corePlayer: CorePlayer, viewSize: Size): SceneUpdateFragment = {
     if corePlayer.reified[Player].position.exists(_().field.isInstanceOf[Tunnel]) then
-      super.drawView(corePlayer, context)
-  end drawView
+      super.presentView(corePlayer, viewSize)
+    else
+      SceneUpdateFragment.empty
+  }
 end TunnelViewRestrictionPlugin
 
 class HighWall(using ComponentInit) extends FloorLeveledGround:
@@ -78,15 +80,17 @@ class HighWall(using ComponentInit) extends FloorLeveledGround:
   val crenellations: List[Painter] =
     Direction.values.toList.map(d => universe.EmptyPainter + s"Fields/HighWall$d")
 
-  override protected def doDraw(context: DrawSquareContext): Unit =
+  override protected def doPresent(context: PresentSquareContext): Batch[SceneNode] = {
     import context.*
 
-    super.doDraw(context)
+    var result = super.doPresent(context)
 
     for dir <- Direction.values do
       if !where.exists(pos => (pos +> dir)().field == this) then
-        context.drawTiled(crenellations(dir.ordinal))
-  end doDraw
+        result ++= context.presentTiled(crenellations(dir.ordinal))
+
+    result
+  }
 end HighWall
 
 class Torch(using ComponentInit) extends Tool:
