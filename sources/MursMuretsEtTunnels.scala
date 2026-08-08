@@ -32,9 +32,7 @@ end MursMuretsEtTunnels
 
 @definition def torch(using Universe) = new Torch
 
-@definition def tunnelHintSign(using Universe) = new TunnelHintSign
-@definition def torchHintSign(using Universe) = new TorchHintSign
-@definition def gateOnHighWallHintSign(using Universe) = new GateOnHighWallHintSign
+@definition def signTemplate(using Universe) = new Sign().asTemplate()
 
 @definition def porch(using Universe) = new Porch
 
@@ -115,41 +113,16 @@ class Torch(using ComponentInit) extends Tool:
   }
 end Torch
 
-class TunnelHintSign(using ComponentInit) extends Obstacle:
+class Sign(using ComponentInit) extends Obstacle {
   painter += "Signs/WoodenSign"
+
+  var message: String = ""
 
   override def pushing(context: MoveContext): Unit = {
     super.pushing(context)
-    context.player.showMessage(
-      "Voici l'entrée d'un tunnel. "
-        + "Tu ne peux voir l'entrée d'un tunnel que si tu es au même niveau que celui-ci. "
-        + "Une fois à l'intérieur, fais attention où tu mets les pieds, car il y fait très sombre."
-    )
+    context.player.showMessage(message)
   }
-end TunnelHintSign
-
-class TorchHintSign(using ComponentInit) extends Obstacle:
-  painter += "Signs/WoodenSign"
-
-  override def pushing(context: MoveContext): Unit = {
-    super.pushing(context)
-    context.player.showMessage(
-      "Dans les tunnels, rien ne vaut une torche pour y voir plus clair."
-    )
-  }
-end TorchHintSign
-
-class GateOnHighWallHintSign(using ComponentInit) extends Obstacle:
-  painter += "Signs/WoodenSign"
-
-  override def pushing(context: MoveContext): Unit = {
-    super.pushing(context)
-    context.player.showMessage(
-      "Les entrées de tunnels ne se voient pas bien sur les murailles. "
-        + "Observe bien pour les repérer."
-    )
-  }
-end GateOnHighWallHintSign
+}
 
 class Porch(using ComponentInit) extends Obstacle:
   painter += "Gates/ClosedPorch"

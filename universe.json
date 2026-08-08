@@ -6,7 +6,9 @@
     "floorLeveledGround2": "user.sjrd.floorleveledgrounds.FloorLeveledGround",
     "floorLeveledGround3": "user.sjrd.floorleveledgrounds.FloorLeveledGround",
     "floorLeveledGround4": "user.sjrd.floorleveledgrounds.FloorLeveledGround",
+    "gateOnHighWallHintSign": "myfunlaby.Sign",
     "map1": "com.funlabyrinthe.mazes.Map",
+    "torchHintSign": "myfunlaby.Sign",
     "tunnel1": "user.sjrd.floorleveledgrounds.Tunnel",
     "tunnel10": "user.sjrd.floorleveledgrounds.Tunnel",
     "tunnel11": "user.sjrd.floorleveledgrounds.Tunnel",
@@ -43,6 +45,7 @@
     "tunnel7": "user.sjrd.floorleveledgrounds.Tunnel",
     "tunnel8": "user.sjrd.floorleveledgrounds.Tunnel",
     "tunnel9": "user.sjrd.floorleveledgrounds.Tunnel",
+    "tunnelHintSign": "myfunlaby.Sign",
   },
   "components": {
     "com.funlabyrinthe.core.Core:player:com.funlabyrinthe.mazes.Player": {
@@ -78,6 +81,9 @@
         },
       ],
       "level": 3,
+    },
+    "com.funlabyrinthe.core.AdditionalComponents:gateOnHighWallHintSign": {
+      "message": "Les entrées de tunnels ne se voient pas bien sur les murailles. Observe bien pour les repérer.",
     },
     "com.funlabyrinthe.mazes.Mazes:grass": {
       "editVisualTag": "!",
@@ -125,7 +131,7 @@
           [ "com.funlabyrinthe.core.AdditionalComponents:tunnel20", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:plank", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
           [ "com.funlabyrinthe.core.AdditionalComponents:floorLeveledGround2", "com.funlabyrinthe.mazes.Mazes:northArrow", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
           [ "com.funlabyrinthe.core.AdditionalComponents:tunnel28", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
-          [ "com.funlabyrinthe.core.AdditionalComponents:tunnel23", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "myfunlaby.MursMuretsEtTunnels:gateOnHighWallHintSign", ],
+          [ "com.funlabyrinthe.core.AdditionalComponents:tunnel23", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.core.AdditionalComponents:gateOnHighWallHintSign", ],
           [ "com.funlabyrinthe.core.AdditionalComponents:tunnel20", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
           [ "com.funlabyrinthe.core.AdditionalComponents:tunnel4", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
           [ "com.funlabyrinthe.core.AdditionalComponents:tunnel19", "com.funlabyrinthe.mazes.Mazes:upStairs", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
@@ -177,12 +183,12 @@
           [ "com.funlabyrinthe.core.AdditionalComponents:tunnel25", "com.funlabyrinthe.mazes.Mazes:downStairs", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
           [ "com.funlabyrinthe.core.AdditionalComponents:tunnel17", "com.funlabyrinthe.mazes.Mazes:upStairs", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
           [ "com.funlabyrinthe.core.AdditionalComponents:tunnel13", "com.funlabyrinthe.mazes.Mazes:northArrow", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
-          [ "com.funlabyrinthe.core.AdditionalComponents:floorLeveledGround3", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "myfunlaby.MursMuretsEtTunnels:torchHintSign", ],
+          [ "com.funlabyrinthe.core.AdditionalComponents:floorLeveledGround3", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.core.AdditionalComponents:torchHintSign", ],
           [ "com.funlabyrinthe.core.AdditionalComponents:tunnel7", "com.funlabyrinthe.mazes.Mazes:northArrow", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
           [ "com.funlabyrinthe.core.AdditionalComponents:tunnel17", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
           [ "com.funlabyrinthe.core.AdditionalComponents:tunnel10", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:silverKey", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
           [ "com.funlabyrinthe.core.AdditionalComponents:floorLeveledGround3", "com.funlabyrinthe.mazes.Mazes:northArrow", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
-          [ "com.funlabyrinthe.core.AdditionalComponents:floorLeveledGround3", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "myfunlaby.MursMuretsEtTunnels:tunnelHintSign", ],
+          [ "com.funlabyrinthe.core.AdditionalComponents:floorLeveledGround3", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.core.AdditionalComponents:tunnelHintSign", ],
           [ "com.funlabyrinthe.core.AdditionalComponents:tunnel12", "com.funlabyrinthe.mazes.Mazes:noEffect", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
           [ "com.funlabyrinthe.core.AdditionalComponents:tunnel7", "com.funlabyrinthe.mazes.Mazes:southArrow", "com.funlabyrinthe.mazes.Mazes:noTool", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
           [ "com.funlabyrinthe.core.AdditionalComponents:tunnel10", "com.funlabyrinthe.mazes.Mazes:noEffect", "myfunlaby.MursMuretsEtTunnels:torch", "com.funlabyrinthe.mazes.Mazes:noObstacle", ],
@@ -330,6 +336,9 @@
       "attributes": {
         "user.sjrd.viewrestriction.ViewRestriction:viewRestrictionRadius": 25,
       },
+    },
+    "com.funlabyrinthe.core.AdditionalComponents:torchHintSign": {
+      "message": "Dans les tunnels, rien ne vaut une torche pour y voir plus clair.",
     },
     "com.funlabyrinthe.core.AdditionalComponents:tunnel1": {
       "painter": [
@@ -614,6 +623,9 @@
         },
       ],
       "openings": [ "North", "East", ],
+    },
+    "com.funlabyrinthe.core.AdditionalComponents:tunnelHintSign": {
+      "message": "Voici l'entrée d'un tunnel. Tu ne peux voir l'entrée d'un tunnel que si tu es au même niveau que celui-ci. Une fois à l'intérieur, fais attention où tu mets les pieds, car il y fait très sombre.",
     },
     "com.funlabyrinthe.mazes.Mazes:wall": {
       "editVisualTag": "!",
