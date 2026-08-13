@@ -53,11 +53,11 @@ end StepLadderPlugin
 class StepLadder(using ComponentInit) extends Effect:
   painter += "Ladders/StepLadder"
 
-  override def entered(context: MoveContext): Unit = {
+  override def entered(context: EnteredContext): Unit = {
     context.player.plugins += stepLadderPlugin
   }
 
-  override def exited(context: MoveContext): Unit = {
+  override def exited(context: ExitedContext): Unit = {
     context.player.plugins -= stepLadderPlugin
   }
 end StepLadder
@@ -94,7 +94,7 @@ end HighWall
 class Torch(using ComponentInit) extends Tool:
   painter += "Miscellaneous/TorchOn"
 
-  override def find(context: MoveContext): Unit = {
+  override def find(context: ExecuteContext): Unit = {
     import context.*
 
     pos() += noTool
@@ -118,7 +118,7 @@ class Sign(using ComponentInit) extends Obstacle {
 
   var message: String = ""
 
-  override def pushing(context: MoveContext): Unit = {
+  override def pushing(context: EnteringContext): Unit = {
     super.pushing(context)
     context.player.showMessage(message)
   }
