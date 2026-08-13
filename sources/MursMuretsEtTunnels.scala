@@ -57,6 +57,13 @@ class StepLadder(using ComponentInit) extends Effect:
     context.player.plugins += stepLadderPlugin
   }
 
+  override def execute(context: ExecuteContext): Unit = {
+    context.player.showMessageOnce(
+      "Depuis cet escabeau, tu peux monter sur le muret. "
+        + "Tu peux sauter du muret quand tu veux, mais l'escabeau reste ici."
+    )
+  }
+
   override def exited(context: ExitedContext): Unit = {
     context.player.plugins -= stepLadderPlugin
   }
